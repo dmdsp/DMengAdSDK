@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DMengAdSDK (0.1.0):
+    - AFNetworking
+    - Masonry (= 1.1.0)
+    - Protobuf (~> 3.20.0)
+    - SDWebImage
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - Protobuf (3.20.3)
+  - SDWebImage (5.19.1):
+    - SDWebImage/Core (= 5.19.1)
+  - SDWebImage/Core (5.19.1)
+
+DEPENDENCIES:
+  - DMengAdSDK (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FBSnapshotTestCase
+    - Masonry
+    - Protobuf
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DMengAdSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  DMengAdSDK: a794e3239310d059574d75a171eb061fe0f0eb48
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Protobuf: a9ba81024eeac45bacebbee6ba81fb0a5cad3f2a
+  SDWebImage: 40b0b4053e36c660a764958bff99eed16610acbb
+
+PODFILE CHECKSUM: 2f00eb9b1dc00b17ddf34464439b2f78c368e0a6
+
+COCOAPODS: 1.11.3

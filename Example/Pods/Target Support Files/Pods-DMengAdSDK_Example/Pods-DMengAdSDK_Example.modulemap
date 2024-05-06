@@ -1,0 +1,6 @@
+framework module Pods_DMengAdSDK_Example {
+  umbrella header "Pods-DMengAdSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

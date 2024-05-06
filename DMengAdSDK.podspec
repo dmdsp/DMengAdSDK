@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DMengAdSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DMengAdSDK.'
+  s.summary          = '多盟广告SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/714145936@qq.com/DMengAdSDK'
+  s.homepage         = 'https://github.com/dmdsp/DMengAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '714145936@qq.com' => 'shilin.liu@domob.cn' }
-  s.source           = { :git => 'https://github.com/714145936@qq.com/DMengAdSDK.git', :tag => s.version.to_s }
+  s.author           = { 'shilin.liu' => 'shilin.liu@domob.cn' }
+  s.source           = { :git => 'https://github.com/dmdsp/DMengAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'DMengAdSDK/Classes/**/*'
+#  s.source_files = 'DMengAdSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DMengAdSDK' => ['DMengAdSDK/Assets/*.png']
-  # }
+  s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'CoreLocation', 'CoreMotion', 'CoreTelephony'
+  s.dependency 'AFNetworking'
+  s.dependency 'Protobuf', '~> 3.20.0'
+  s.dependency 'Masonry', '1.1.0'                  
+  s.dependency 'SDWebImage'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+  s.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.framework'
+  s.resource_bundles = {
+      'DMAdSDK_Bundle' => ['DMengAdSDK/Classes/DMAdSDK_Bundle.bundle']
+  }
+  
 end
