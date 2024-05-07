@@ -543,7 +543,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 432Y475BJD;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMengAdSDK/DMengAdSDK-Prefix.pch";
 				INFOPLIST_FILE = "DMengAdSDK/DMengAdSDK-Info.plist";
@@ -562,7 +561,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 432Y475BJD;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMengAdSDK/DMengAdSDK-Prefix.pch";
 				INFOPLIST_FILE = "DMengAdSDK/DMengAdSDK-Info.plist";

@@ -18,6 +18,9 @@
   "platforms": {
     "ios": "9.0"
   },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "frameworks": [
     "AdSupport",
     "AppTrackingTransparency",
@@ -40,7 +43,7 @@
     ]
   },
   "static_framework": true,
-  "vendored_frameworks": "DMengAdSDK/Classes/DMAdSDK.framework",
+  "vendored_frameworks": "DMengAdSDK/Classes/DMAdSDK.xcframework",
   "resource_bundles": {
     "DMAdSDK_Bundle": [
       "DMengAdSDK/Classes/DMAdSDK_Bundle.bundle"
