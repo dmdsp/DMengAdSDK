@@ -29,7 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.pod_target_xcconfig = {
+         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+     }
 #  s.source_files = 'DMengAdSDK/Classes/**/*'
   
   s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'CoreLocation', 'CoreMotion', 'CoreTelephony'
@@ -39,7 +41,8 @@ TODO: Add long description of the pod here.
   s.dependency 'SDWebImage'
 
   s.static_framework = true
-  s.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.framework'
+  s.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.xcframework'
+  
   s.resource_bundles = {
       'DMAdSDK_Bundle' => ['DMengAdSDK/Classes/DMAdSDK_Bundle.bundle']
   }
