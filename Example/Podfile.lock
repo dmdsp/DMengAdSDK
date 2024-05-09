@@ -14,7 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - DMengAdSDK (0.1.0):
+  - DMengAdSDK (0.3.0):
+    - DMengAdSDK/DMAdSDK (= 0.3.0)
+  - DMengAdSDK/DMAdSDK (0.3.0):
     - AFNetworking
     - Masonry (= 1.1.0)
     - Protobuf (~> 3.20.0)
@@ -48,7 +50,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  DMengAdSDK: 31788401cd7d56e7e51c5d1582460fb20262f858
+  DMengAdSDK: a7c305aa3f71e4963b64c591a9c1f14c7c5856eb
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Protobuf: a9ba81024eeac45bacebbee6ba81fb0a5cad3f2a
