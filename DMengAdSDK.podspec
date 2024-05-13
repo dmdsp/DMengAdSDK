@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMengAdSDK'
-  s.version          = '3.1.0'
+  s.version          = '3.1.1'
   s.summary          = '多盟广告SDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.pod_target_xcconfig = {
-         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-     }
+
 #  s.source_files = 'DMengAdSDK/Classes/**/*'
   
   s.subspec 'DMAdSDK' do |dmadsdk|
