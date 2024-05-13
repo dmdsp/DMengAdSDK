@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
       dmadsdk.frameworks = 'AdSupport', 'AppTrackingTransparency', 'CoreLocation', 'CoreMotion', 'CoreTelephony'
       dmadsdk.dependency 'AFNetworking'
       dmadsdk.dependency 'Protobuf', '~> 3.20.0'
-      dmadsdk.dependency 'Masonry', '1.1.0'
+      dmadsdk.dependency 'Masonry'
       dmadsdk.dependency 'SDWebImage'
       dmadsdk.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.xcframework'
       
@@ -48,6 +48,6 @@ TODO: Add long description of the pod here.
   end
 
   s.static_framework = true
-  s.default_subspec = 'DMAdSDK' # 将Submodule1设为默认子模块
+  s.default_subspec = 'DMAdSDK' # 将DMAdSDK设为默认子模块
   
 end
