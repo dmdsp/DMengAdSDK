@@ -1,0 +1,6 @@
+framework module DMengSDKAdapter {
+  umbrella header "DMengSDKAdapter.h"
+  export *
+
+  module * { export * }
+}

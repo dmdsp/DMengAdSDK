@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, DMAdBiddingCode) {
@@ -29,16 +30,27 @@ typedef NS_ENUM(NSInteger, AdTemplateId) {
     AdTemplateIdRewardVideoLand = 70001, // 激励视频-横屏
     AdTemplateIdRewardVideoPort = 10002 // 激励视频-竖屏
 };
+typedef void(^CompletionEvent)(BOOL success);
+@class DMUnionModel;
+@class DMUnionTrackerModel;
+
 @interface DMAds : NSObject
+@property(nonatomic,strong) DMUnionModel *ksModel, *gmModel;
+
 // 单例
 +(instancetype)shareInstance;
 
 //SDK 初始化
 -(void)initSDK;
+//聚合初始化
+-(void)initUnionSDKCompletion:(CompletionEvent) completion;
 //获取SDK版本号
 -(NSString*)getSdkVersion;
 //设备信息
 -(NSString*)getSdkDevice;
+//
+-(NSString*)getUnionSdkTracker:(DMUnionTrackerModel *)unionTrackerModel templateId:(AdTemplateId)templateId;
+
 @end
 
 NS_ASSUME_NONNULL_END

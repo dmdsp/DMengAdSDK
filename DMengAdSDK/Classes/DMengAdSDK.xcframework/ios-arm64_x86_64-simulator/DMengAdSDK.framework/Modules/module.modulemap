@@ -1,0 +1,6 @@
+framework module DMengAdSDK {
+  umbrella header "DMengAdSDK.h"
+  export *
+
+  module * { export * }
+}

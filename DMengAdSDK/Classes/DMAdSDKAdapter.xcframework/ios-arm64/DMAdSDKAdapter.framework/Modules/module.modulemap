@@ -1,0 +1,6 @@
+framework module DMAdSDKAdapter {
+  umbrella header "DMAdSDKAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -6,11 +6,15 @@
 	<dict>
 		<key>Headers/DMAdSDK.h</key>
 		<data>
-		fr1+zUzSoz2nIriPbPI+iYZDI3I=
+		5Ol4w99FdKpzQtabmpWo2+TFuJw=
 		</data>
 		<key>Headers/DMAds.h</key>
 		<data>
-		JNPE/+c4/o18GWuT6Lb/yRw4c3U=
+		V0JB3UJOKOWSDwl16BG2kypEq9A=
+		</data>
+		<key>Headers/DMUnionModel.h</key>
+		<data>
+		ARffNVefMdxWeVwS7jJIAMngIy4=
 		</data>
 		<key>Headers/DM_BannerAd.h</key>
 		<data>
@@ -32,6 +36,10 @@
 		<data>
 		AADb0MzQrmpt9DsL7MwSpJt0I04=
 		</data>
+		<key>Headers/DM_Macro.h</key>
+		<data>
+		XA8Pu6QtX8rK94CYytMD/kQUQpI=
+		</data>
 		<key>Headers/DM_RewarVideoModel.h</key>
 		<data>
 		uKP8HiY1TQU3bcdcW/vlRYqIc6I=
@@ -46,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ltvr0v/8KYInT9NWHKJfI0aqtds=
+		sSfkhcyDjhAPNDwiP2iorXQx3Xk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +62,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		90A7eVYWOZcv1AJqZpYHpUmiBAg=
+		/JL9jc5In3oE8fSd3BUZG87c1x4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,22 +71,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fr1+zUzSoz2nIriPbPI+iYZDI3I=
+			5Ol4w99FdKpzQtabmpWo2+TFuJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			RDUbJykWNEBqe6+Lv2bjVEKW6VZghngdZBYbPpfnY+4=
+			oDj0rAe80OaWIIPqmg3Q2iZIvm+Bi5LLstVVD1qJKZk=
 			</data>
 		</dict>
 		<key>Headers/DMAds.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JNPE/+c4/o18GWuT6Lb/yRw4c3U=
+			V0JB3UJOKOWSDwl16BG2kypEq9A=
 			</data>
 			<key>hash2</key>
 			<data>
-			76RXF6yecUuKWkg9fZTwGgNAWq1zBglHDjSFPBoICLM=
+			IdIuV9vdC86JzPcEDObTyf5rySxr4/6uuewnOSp93Vk=
+			</data>
+		</dict>
+		<key>Headers/DMUnionModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ARffNVefMdxWeVwS7jJIAMngIy4=
+			</data>
+			<key>hash2</key>
+			<data>
+			LvMAFYDKG5bEc4k9ALSUAwrhDOs9T74R+QaV3/AKe6E=
 			</data>
 		</dict>
 		<key>Headers/DM_BannerAd.h</key>
@@ -136,6 +155,17 @@
 			yVCbk7KXTfqLnUE5BbHA7rpEdPWpabHiQxB+I/nuGBI=
 			</data>
 		</dict>
+		<key>Headers/DM_Macro.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XA8Pu6QtX8rK94CYytMD/kQUQpI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2x4dQw3djuO9eQV4NxYUb1tiPJUofQD8BgUysQMyz8A=
+			</data>
+		</dict>
 		<key>Headers/DM_RewarVideoModel.h</key>
 		<dict>
 			<key>hash</key>
@@ -184,11 +214,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			90A7eVYWOZcv1AJqZpYHpUmiBAg=
+			/JL9jc5In3oE8fSd3BUZG87c1x4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3yh4GIRyotJ4Ah9XSW6Ix88RAlkOXBe/C8YtJvtVHfQ=
+			+VYkzFutUNyRFbieRpgQtkZJfOk024XprzqB/7GDMDY=
 			</data>
 		</dict>
 	</dict>
