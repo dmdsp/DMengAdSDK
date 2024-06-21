@@ -23,6 +23,12 @@ variant_for_slice()
   "DMAdSDK.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
+  "DMAdSDKAdapter.xcframework/ios-arm64")
+    echo ""
+    ;;
+  "DMAdSDKAdapter.xcframework/ios-arm64_x86_64-simulator")
+    echo "simulator"
+    ;;
   "DMengSDKAdapter.xcframework/ios-arm64")
     echo ""
     ;;
@@ -39,6 +45,12 @@ archs_for_slice()
     echo "arm64"
     ;;
   "DMAdSDK.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "DMAdSDKAdapter.xcframework/ios-arm64")
+    echo "arm64"
+    ;;
+  "DMAdSDKAdapter.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "DMengSDKAdapter.xcframework/ios-arm64")
@@ -130,5 +142,6 @@ install_xcframework() {
 }
 
 install_xcframework "${PODS_ROOT}/../../DMengAdSDK/Classes/DMAdSDK.xcframework" "DMengAdSDK/DMAdSDK" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../DMengAdSDK/Classes/DMAdSDKAdapter.xcframework" "DMengAdSDK/DMAdSDKAdapter" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../DMengAdSDK/Classes/DMengSDKAdapter.xcframework" "DMengAdSDK/DMengSDKAdapter" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

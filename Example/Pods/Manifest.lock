@@ -14,14 +14,17 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - DMengAdSDK (3.1.4):
-    - DMengAdSDK/DMAdSDK (= 3.1.4)
-  - DMengAdSDK/DMAdSDK (3.1.4):
+  - DMengAdSDK (3.1.5):
+    - DMengAdSDK/DMAdSDK (= 3.1.5)
+  - DMengAdSDK/DMAdSDK (3.1.5):
     - AFNetworking
     - Masonry
     - Protobuf (~> 3.20.0)
     - SDWebImage
-  - DMengAdSDK/DMengSDKAdapter (3.1.4):
+  - DMengAdSDK/DMAdSDKAdapter (3.1.5):
+    - DMengAdSDK/DMAdSDK
+    - DMengAdSDK/DMengSDKAdapter
+  - DMengAdSDK/DMengSDKAdapter (3.1.5):
     - DMengAdSDK/DMAdSDK
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
@@ -36,6 +39,7 @@ PODS:
 
 DEPENDENCIES:
   - DMengAdSDK (from `../`)
+  - DMengAdSDK/DMAdSDKAdapter (from `../`)
   - DMengAdSDK/DMengSDKAdapter (from `../`)
   - FBSnapshotTestCase
 
@@ -53,12 +57,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  DMengAdSDK: 2753f8ff221b63585648bdaea55c3064f618b9ef
+  DMengAdSDK: 37f941480d1e479bb2c789470b6b0b650c3508a5
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Protobuf: a9ba81024eeac45bacebbee6ba81fb0a5cad3f2a
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
 
-PODFILE CHECKSUM: f05cba2971109d7f3aa0bf57e56c5e54f1208ba0
+PODFILE CHECKSUM: 6b74df2ba7b7c050d9cf202f731959c8df53c540
 
 COCOAPODS: 1.15.2

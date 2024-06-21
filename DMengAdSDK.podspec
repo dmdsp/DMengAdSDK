@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMengAdSDK'
-  s.version          = '3.1.4'
+  s.version          = '3.1.5'
   s.summary          = '多盟广告SDK'
   
   # This description is used to generate tags and improve search results.
@@ -52,23 +52,13 @@ Pod::Spec.new do |s|
     
   end
   
-#  s.subspec 'DMengAdSDK' do |dmengadsdk|
-#    # 添加 DMengAdSDK 的其他配置信息
-#    dmengadsdk.dependency 'DMengAdSDK/DMAdSDKAdapter'
-#    dmengadsdk.dependency 'DMengAdSDK/GMAdSDKAdapter'
-##    dmengadsdk.frameworks = 'CoreAudioTypes', 'CoreAudio'
-#    dmengadsdk.dependency 'DMengAdSDK/DMAdSDK'
-#    dmengadsdk.vendored_frameworks = 'DMengAdSDK/Classes/DMengAdSDK.xcframework'
-#    
-#  end
-#  
-#  s.subspec 'DMAdSDKAdapter' do |dmadsdkadapter|
-#    # 添加 DMAdSDKAdapter 的配置信息
-#    dmadsdkadapter.dependency 'DMengAdSDK/DMAdSDK'
-##    dmadsdkadapter.dependency 'DMengAdSDK/DMengAdSDK'
-#    dmadsdkadapter.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDKAdapter.xcframework'
-#    
-#  end
+  s.subspec 'DMAdSDKAdapter' do |dmadsdkadapter|
+    # 添加 DMAdSDKAdapter 的配置信息
+    dmadsdkadapter.dependency 'DMengAdSDK/DMAdSDK'
+    dmadsdkadapter.dependency 'DMengAdSDK/DMengSDKAdapter'
+    dmadsdkadapter.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDKAdapter.xcframework'
+    
+  end
 #  
 #  s.subspec 'GMAdSDKAdapter' do |gmadsdkadapter|
 #    # 添加 GMAdSDKAdapter 的配置信息
@@ -83,6 +73,16 @@ Pod::Spec.new do |s|
 #    gmadsdkadapter.vendored_frameworks = 'DMengAdSDK/Classes/GMAdSDKAdapter.xcframework'
     
 #  end
+#  s.subspec 'DMengAdSDK' do |dmengadsdk|
+#    # 添加 DMengAdSDK 的其他配置信息
+#    dmengadsdk.dependency 'DMengAdSDK/DMAdSDKAdapter'
+#    dmengadsdk.dependency 'DMengAdSDK/GMAdSDKAdapter'
+##    dmengadsdk.frameworks = 'CoreAudioTypes', 'CoreAudio'
+#    dmengadsdk.dependency 'DMengAdSDK/DMAdSDK'
+#    dmengadsdk.vendored_frameworks = 'DMengAdSDK/Classes/DMengAdSDK.xcframework'
+#
+#  end
+#  
   s.static_framework = true
   s.default_subspec = 'DMAdSDK' # 将DMAdSDK设为默认子模块
   

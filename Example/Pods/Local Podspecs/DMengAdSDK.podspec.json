@@ -1,6 +1,6 @@
 {
   "name": "DMengAdSDK",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "summary": "多盟广告SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dmdsp/DMengAdSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dmdsp/DMengAdSDK.git",
-    "tag": "3.1.4"
+    "tag": "3.1.5"
   },
   "platforms": {
     "ios": "12.0"
@@ -59,6 +59,18 @@
         ]
       },
       "vendored_frameworks": "DMengAdSDK/Classes/DMengSDKAdapter.xcframework"
+    },
+    {
+      "name": "DMAdSDKAdapter",
+      "dependencies": {
+        "DMengAdSDK/DMAdSDK": [
+
+        ],
+        "DMengAdSDK/DMengSDKAdapter": [
+
+        ]
+      },
+      "vendored_frameworks": "DMengAdSDK/Classes/DMAdSDKAdapter.xcframework"
     }
   ]
 }

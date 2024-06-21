@@ -5,7 +5,7 @@ platform :ios, '12.0'
 target 'DMengAdSDK_Example' do
   pod 'DMengAdSDK', :path => '../'
 #  pod 'DMengAdSDK/DMengAdSDK', :path => '../'
-#  pod 'DMengAdSDK/DMAdSDKAdapter', :path => '../'
+  pod 'DMengAdSDK/DMAdSDKAdapter', :path => '../'
 #  pod 'DMengAdSDK/GMAdSDKAdapter', :path => '../'
   pod 'DMengAdSDK/DMengSDKAdapter', :path => '../'
 
