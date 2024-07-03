@@ -18,7 +18,7 @@ typedef void(^DMengBannerAdapterCompletion)(DMengBannerAdapter * bannerAdapter);
 //广告位id
 @property (nonatomic, copy, readonly, nonnull) NSString *slotID;
 //当前广告的报价
-@property(nonatomic, assign, readonly) long bidPrice;
+@property(nonatomic, assign, readonly) long ecpm;
 
 @property(nonatomic, assign, readonly) long originalPrice;
 @property (nonatomic , copy) NSString * materialId ;
@@ -37,7 +37,6 @@ typedef void(^DMengBannerAdapterCompletion)(DMengBannerAdapter * bannerAdapter);
 //竞价失败的上报
 - (void)biddingBannerFailed:(long)price Code:(DMAdBiddingCode)code;
 -(NSString*)getUnionSdkTracker;
-- (NSTimeInterval)getCurrentTimeInterval;
 @end
 
 @protocol DMengBannerManagerDelegate <NSObject>

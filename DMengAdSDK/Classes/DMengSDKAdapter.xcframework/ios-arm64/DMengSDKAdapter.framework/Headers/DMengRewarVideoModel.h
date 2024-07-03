@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 奖励名称
 @property (nonatomic, copy) NSString *rewardName;
 // 奖励数量
-@property (nonatomic, assign) NSInteger *rewardAmount;
+@property (nonatomic, assign) NSInteger  rewardAmount;
 @end
 
 NS_ASSUME_NONNULL_END

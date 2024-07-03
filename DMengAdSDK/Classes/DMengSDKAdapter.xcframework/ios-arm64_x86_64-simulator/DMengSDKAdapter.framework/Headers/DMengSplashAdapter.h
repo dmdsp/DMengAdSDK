@@ -17,7 +17,7 @@ typedef void(^DMengSplashAdapterCompletion)(DMengSplashAdapter * splashAdapter);
 //广告位id
 @property (nonatomic, copy, readonly, nonnull) NSString *slotID;
 //当前广告的报价
-@property(nonatomic, assign, readonly) long bidPrice;
+@property(nonatomic, assign, readonly) long ecpm;
 
 @property(nonatomic, assign, readonly) long originalPrice;
 @property (nonatomic , copy) NSString * materialId ;
@@ -38,7 +38,6 @@ typedef void(^DMengSplashAdapterCompletion)(DMengSplashAdapter * splashAdapter);
 /// - Parameter viewController: 当前要展示的控制器
 -(void)showSplashViewInRootViewController:(UIViewController *)viewController;
 -(NSString*)getUnionSdkTracker;
-- (NSTimeInterval)getCurrentTimeInterval;
 @end
 
 @protocol DMengSplashManagerDelegate <NSObject>

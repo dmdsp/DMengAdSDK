@@ -14,23 +14,23 @@
 		</data>
 		<key>Headers/DMengBannerManager.h</key>
 		<data>
-		dcMTsf1aylTFTqQXKfbJ9N5/WJ0=
+		1xQh3frqgMx/OUEPgi+Pv8QV63w=
 		</data>
 		<key>Headers/DMengFeedManager.h</key>
 		<data>
-		AXqAvATOzwCRV3PNHDiVrKc7MBI=
+		RiHfRP9IO4FEx6HI6PHCe6Wyf6Q=
 		</data>
 		<key>Headers/DMengInterstitialManager.h</key>
 		<data>
-		SvxM2Eu+FvIZLNW03PogbQsRo+s=
+		XnEQyHOgJynGUkKrw62K5jaaH/Y=
 		</data>
 		<key>Headers/DMengRewardedVideoManager.h</key>
 		<data>
-		SFnwB1QlJQYbGM9wc0Eh6/Ociao=
+		hJG+WzqMaf5ujuVZGdEkJIgubXA=
 		</data>
 		<key>Headers/DMengSplashManager.h</key>
 		<data>
-		9+w7lYnq/fDfpzG9lpzmk19vWmM=
+		UyBstlxsplLhPFdnpIox21bjS+c=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -69,55 +69,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dcMTsf1aylTFTqQXKfbJ9N5/WJ0=
+			1xQh3frqgMx/OUEPgi+Pv8QV63w=
 			</data>
 			<key>hash2</key>
 			<data>
-			tPgyW73sCW2OEA/ZpsZa3A54fxR4vfegN/CrjZDCGGE=
+			bSZWq7ke04CLRTLaCRCzzFrLCrXVpDNl0s3lz+OSVk0=
 			</data>
 		</dict>
 		<key>Headers/DMengFeedManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AXqAvATOzwCRV3PNHDiVrKc7MBI=
+			RiHfRP9IO4FEx6HI6PHCe6Wyf6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNMLC3laP7z2mH2bdykbtMZ7sVyqvdTrSGE0GjiPZ+g=
+			c9BQLUHAYgD+tApP1/qmd8J5N/KDRvt2Lfwxs673fS4=
 			</data>
 		</dict>
 		<key>Headers/DMengInterstitialManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SvxM2Eu+FvIZLNW03PogbQsRo+s=
+			XnEQyHOgJynGUkKrw62K5jaaH/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			vyr6x+wCtRuhGyf/j24BVpGoAA+8o9L7xN/lInxuS9A=
+			V3D1kdoxG1aCPUZtTLExK6Kcr2KXVx3PPFhbLLWa7Tk=
 			</data>
 		</dict>
 		<key>Headers/DMengRewardedVideoManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SFnwB1QlJQYbGM9wc0Eh6/Ociao=
+			hJG+WzqMaf5ujuVZGdEkJIgubXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nrR8U8Q3DKtOMIksQVE8yNULbxptONX+NAeS0EdNu8Y=
+			GHt20Teok43FwoK9FlEFxRZpCUxxm+Bm7UTY9F6U5Y0=
 			</data>
 		</dict>
 		<key>Headers/DMengSplashManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9+w7lYnq/fDfpzG9lpzmk19vWmM=
+			UyBstlxsplLhPFdnpIox21bjS+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			FmSOhvo6f1nguMxvXw+ycz+A0MTyl5XotWZgcYvUiS4=
+			tfx8INByjmPpS9qXnJxSGUpTSSbdRi6Y1bW8cwRc+E4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

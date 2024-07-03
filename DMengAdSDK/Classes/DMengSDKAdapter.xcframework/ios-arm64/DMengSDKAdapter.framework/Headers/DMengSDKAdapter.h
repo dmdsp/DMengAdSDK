@@ -26,3 +26,4 @@ FOUNDATION_EXPORT const unsigned char DMengSDKAdapterVersionString[];
 #import <DMengSDKAdapter/DMengDelegateCall.h>
 #import <DMengSDKAdapter/DMengConst.h>
 #import <DMengSDKAdapter/DMengQueueManager.h>
+#import <DMAdSDK/DMAds.h>

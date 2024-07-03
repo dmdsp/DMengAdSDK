@@ -18,7 +18,7 @@ typedef void(^DMengRewardedVideoAdapterCompletion)(DMengRewardedVideoAdapter * r
 //广告位id
 @property (nonatomic, copy, readonly, nonnull) NSString *slotID;
 //当前广告的报价
-@property(nonatomic, assign, readonly) long bidPrice;
+@property(nonatomic, assign, readonly) long ecpm;
 
 @property(nonatomic, assign, readonly) long originalPrice;
 @property (nonatomic , copy) NSString * materialId ;
@@ -39,7 +39,6 @@ typedef void(^DMengRewardedVideoAdapterCompletion)(DMengRewardedVideoAdapter * r
 /// - Parameter viewController: 当前要展示的控制器
 -(void)showRewardedVideoViewInRootViewController:(UIViewController *)viewController;
 -(NSString*)getUnionSdkTracker;
-- (NSTimeInterval)getCurrentTimeInterval;
 @end
 
 @protocol DMengRewardedVideoManagerDelegate <NSObject>

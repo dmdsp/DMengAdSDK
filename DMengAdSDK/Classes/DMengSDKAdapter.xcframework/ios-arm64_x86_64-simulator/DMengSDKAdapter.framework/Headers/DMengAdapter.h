@@ -18,6 +18,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //SDK 初始化
 -(void)initUnionSDKCompletion:(CompletionEvent) completion;
+
+//
+- (NSTimeInterval)getCurrentTimeInterval;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -18,10 +18,24 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy) NSString * unionAppid;
 /** template */
 @property(nonatomic, copy) NSDictionary *templateDic;
+/** profitMargin */
+@property(nonatomic, copy) NSDictionary *profitMarginDic;
 /** version */
 @property(nonatomic, copy) NSString *version;
 /** pub_time */
 @property(nonatomic, assign) int64_t pubTime;
+/** 开屏并发请求超时时间 */
+@property(nonatomic, assign) int32_t splashReqTimeout;
+/** 信息流并发请求超时时间 */
+@property(nonatomic, assign) int32_t feedReqTimeout;
+/** banner并发请求超时时间 */
+@property(nonatomic, assign) int32_t bannerReqTimeout;
+/** 插屏并发请求超时时间 */
+@property(nonatomic, assign) int32_t interactionReqTimeout;
+/** 激励视频并发请求超时时间 */
+@property(nonatomic, assign) int32_t rewardVideoReqTimeout;
+/** 缓存池广告有效期,单位毫秒 */
+@property(nonatomic, assign) int32_t cacheValidity;
 @end
 @interface DMUnionDspTrackerModel : NSObject
 @property(nonatomic, copy) NSString * unionAppid;
