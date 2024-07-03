@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.subspec 'DMAdSDK' do |dmadsdk|
     dmadsdk.frameworks = 'AdSupport', 'AppTrackingTransparency', 'CoreLocation', 'CoreMotion', 'CoreTelephony'
     dmadsdk.dependency 'AFNetworking'
-    dmadsdk.dependency 'Protobuf', '~> 3.20.0'
+    dmadsdk.dependency 'Protobuf', '~> 3.27'
     dmadsdk.dependency 'Masonry'
     dmadsdk.dependency 'SDWebImage'
     dmadsdk.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.xcframework'
