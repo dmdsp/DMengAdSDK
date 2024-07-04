@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMengAdSDK'
-  s.version          = '3.4.1'
+  s.version          = '3.4.2'
   s.summary          = '多盟广告SDK'
   
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/dmdsp/DMengAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
   
   #  s.source_files = 'DMengAdSDK/Classes/**/*'
   
@@ -67,6 +67,7 @@ Pod::Spec.new do |s|
     gmadsdkadapter.dependency 'GMKsAdapter-Beta', '~> 3.3.64.0.0'
     gmadsdkadapter.dependency 'KSAdSDK', '~> 3.3.61'
     gmadsdkadapter.dependency 'DMengAdSDK/DMengSDKAdapter'
+    gmadsdkadapter.ios.deployment_target = '12.0'
 
     gmadsdkadapter.vendored_frameworks = 'DMengAdSDK/Classes/GMAdSDKAdapter.xcframework'
     
@@ -76,6 +77,8 @@ Pod::Spec.new do |s|
     # 添加 DMAdSDKAdapter 的配置信息
     ksadsdkadapter.dependency 'KSAdSDK', '~> 3.3.61'
     ksadsdkadapter.dependency 'DMengAdSDK/DMengSDKAdapter'
+    ksadsdkadapter.ios.deployment_target = '12.0'
+
     ksadsdkadapter.vendored_frameworks = 'DMengAdSDK/Classes/KSAdSDKAdapter.xcframework'
     
   end
