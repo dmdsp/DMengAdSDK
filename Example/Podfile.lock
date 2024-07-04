@@ -19,44 +19,39 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - DMengAdSDK (3.3.3):
-    - DMengAdSDK/DMAdSDK (= 3.3.3)
-  - DMengAdSDK/DMAdSDK (3.3.3):
+  - DMengAdSDK (3.4.3):
+    - DMengAdSDK/DMAdSDK (= 3.4.3)
+  - DMengAdSDK/DMAdSDK (3.4.3):
     - AFNetworking
     - Masonry
-    - Protobuf (~> 3.20.0)
+    - Protobuf (~> 3.27)
     - SDWebImage
-  - DMengAdSDK/DMAdSDKAdapter (3.3.3):
+  - DMengAdSDK/DMAdSDKAdapter (3.4.3):
     - DMengAdSDK/DMAdSDK
     - DMengAdSDK/DMengSDKAdapter
-  - DMengAdSDK/DMengAdSDK (3.3.3):
+  - DMengAdSDK/DMengAdSDK (3.4.3):
     - DMengAdSDK/DMAdSDK
     - DMengAdSDK/DMAdSDKAdapter
     - DMengAdSDK/DMengSDKAdapter
-  - DMengAdSDK/DMengSDKAdapter (3.3.3):
+  - DMengAdSDK/DMengSDKAdapter (3.4.3):
     - DMengAdSDK/DMAdSDK
-  - DMengAdSDK/GMAdSDKAdapter (3.3.3):
+  - DMengAdSDK/GMAdSDKAdapter (3.4.3):
     - Ads-CN-Beta (= 6.2.0.0)
     - Ads-CN-Beta/CSJMediation
     - DMengAdSDK/DMengSDKAdapter
     - GMKsAdapter-Beta (~> 3.3.64.0.0)
     - KSAdSDK (~> 3.3.61)
-  - DMengAdSDK/KSAdSDKAdapter (3.3.3):
+  - DMengAdSDK/KSAdSDKAdapter (3.4.3):
     - DMengAdSDK/DMengSDKAdapter
     - KSAdSDK (~> 3.3.61)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - GMKsAdapter-Beta (3.3.64.0.0):
     - Ads-CN-Beta/CSJMediation (>= 6.2.0.0)
   - KSAdSDK (3.3.66)
   - Masonry (1.1.0)
-  - Protobuf (3.20.3)
-  - SDWebImage (5.19.2):
-    - SDWebImage/Core (= 5.19.2)
-  - SDWebImage/Core (5.19.2)
+  - Protobuf (3.27.2)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
 
 DEPENDENCIES:
   - DMengAdSDK (from `../`)
@@ -65,13 +60,11 @@ DEPENDENCIES:
   - DMengAdSDK/DMengSDKAdapter (from `../`)
   - DMengAdSDK/GMAdSDKAdapter (from `../`)
   - DMengAdSDK/KSAdSDKAdapter (from `../`)
-  - FBSnapshotTestCase
 
 SPEC REPOS:
   trunk:
     - Ads-CN-Beta
     - AFNetworking
-    - FBSnapshotTestCase
     - GMKsAdapter-Beta
     - KSAdSDK
     - Masonry
@@ -85,14 +78,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Ads-CN-Beta: 7a82a9a84e5af6b37d78ea1364648f652df26020
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  DMengAdSDK: 7679d9d39e1370f3dea6f200c214829eb433417a
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  DMengAdSDK: fa43d7946e72a007abc08c855907b13eca1589fb
   GMKsAdapter-Beta: 39a985c9e198fc449e47ae0f0cdea085973fdf3a
   KSAdSDK: 2b7d0715bb848a9f5b5cb46a5ae25555e109aca0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  Protobuf: a9ba81024eeac45bacebbee6ba81fb0a5cad3f2a
-  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  Protobuf: fb2c13674723f76ff6eede14f78847a776455fa2
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
 
-PODFILE CHECKSUM: cf8106ad972f4c056333f5d813147e70117143a8
+PODFILE CHECKSUM: 85dcf177f1b7c7e2ab2b6da839de1390833482ea
 
 COCOAPODS: 1.15.2

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DMengAdSDK'
-  s.version          = '3.4.2'
+  s.version          = '3.4.3'
   s.summary          = '多盟广告SDK'
   
   # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
     dmadsdk.vendored_frameworks = 'DMengAdSDK/Classes/DMAdSDK.xcframework'
     
     dmadsdk.resource_bundles = {
-      'DMAdSDK_Bundle' => ['DMengAdSDK/Classes/DMAdSDK_Bundle.bundle']
+        'DMAdSDK_Bundle' => ['DMengAdSDK/Classes/DMAdSDK_Bundle.bundle/**/*']
     }
   end
   

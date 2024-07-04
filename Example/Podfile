@@ -10,10 +10,4 @@ target 'DMengAdSDK_Example' do
   pod 'DMengAdSDK/DMengSDKAdapter', :path => '../'
   pod 'DMengAdSDK/KSAdSDKAdapter', :path => '../'
 
-
-  target 'DMengAdSDK_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

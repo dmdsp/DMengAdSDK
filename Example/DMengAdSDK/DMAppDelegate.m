@@ -7,12 +7,16 @@
 //
 
 #import "DMAppDelegate.h"
+#import "DMViewController.h"
 
 @implementation DMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[DMViewController new]];
+    [self.window makeKeyWindow];
+    [self.window makeKeyAndVisible];   
     return YES;
 }
 

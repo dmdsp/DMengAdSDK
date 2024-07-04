@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F8108D37D9FEC9F01704DC9 /* Pods_DMengAdSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D64DA7EF26DC6E317735F5 /* Pods_DMengAdSDK_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,18 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ACC76A0FD6AF6AC3E9190977 /* Pods_DMengAdSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402F6A1C62733AB3F403D80 /* Pods_DMengAdSDK_Example.framework */; };
+		BCF589BE2C36425900F9C1D5 /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589A92C36425900F9C1D5 /* BannerAdViewController.m */; };
+		BCF589BF2C36425900F9C1D5 /* FeedAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589AB2C36425900F9C1D5 /* FeedAdViewController.m */; };
+		BCF589C02C36425900F9C1D5 /* InterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589AD2C36425900F9C1D5 /* InterstitialAdViewController.m */; };
+		BCF589C12C36425900F9C1D5 /* RewardVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589AF2C36425900F9C1D5 /* RewardVideoAdViewController.m */; };
+		BCF589C22C36425900F9C1D5 /* SplashAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589B12C36425900F9C1D5 /* SplashAdViewController.m */; };
+		BCF589C32C36425900F9C1D5 /* BannerAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589B42C36425900F9C1D5 /* BannerAdapterViewController.m */; };
+		BCF589C42C36425900F9C1D5 /* FeedAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589B62C36425900F9C1D5 /* FeedAdapterViewController.m */; };
+		BCF589C52C36425900F9C1D5 /* InterstitialAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589B82C36425900F9C1D5 /* InterstitialAdapterViewController.m */; };
+		BCF589C62C36425900F9C1D5 /* RewardVideoAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589BA2C36425900F9C1D5 /* RewardVideoAdapterViewController.m */; };
+		BCF589C72C36425900F9C1D5 /* SplashAdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589BC2C36425900F9C1D5 /* SplashAdapterViewController.m */; };
+		BCF589CA2C36427E00F9C1D5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF589C92C36427E00F9C1D5 /* UIView+Toast.m */; };
+		E8E42DF557067C9301CFF3BF /* Pods_DMengAdSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154ADF6589EAE54D4C84BEDC /* Pods_DMengAdSDK_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +48,8 @@
 
 /* Begin PBXFileReference section */
 		137CC4AA68747FFEA722B90C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		154ADF6589EAE54D4C84BEDC /* Pods_DMengAdSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMengAdSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2890F3DBF5BAFFE537D26C92 /* DMengAdSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMengAdSDK.podspec; path = ../DMengAdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		31FA40241FA714B2C196DA0D /* Pods-DMengAdSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Tests/Pods-DMengAdSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		38B00A1B97CB87BB65393721 /* Pods-DMengAdSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DMengAdSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMengAdSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +70,31 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7FAF4C1CFE563641EE57AF20 /* Pods-DMengAdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B402F6A1C62733AB3F403D80 /* Pods_DMengAdSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMengAdSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20C6B612D9A1E14A4E2319A /* Pods-DMengAdSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Tests/Pods-DMengAdSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E4D64DA7EF26DC6E317735F5 /* Pods_DMengAdSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMengAdSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58152034B99646AFF28D85F /* Pods-DMengAdSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BCF589A82C36425900F9C1D5 /* BannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
+		BCF589A92C36425900F9C1D5 /* BannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
+		BCF589AA2C36425900F9C1D5 /* FeedAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedAdViewController.h; sourceTree = "<group>"; };
+		BCF589AB2C36425900F9C1D5 /* FeedAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedAdViewController.m; sourceTree = "<group>"; };
+		BCF589AC2C36425900F9C1D5 /* InterstitialAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialAdViewController.h; sourceTree = "<group>"; };
+		BCF589AD2C36425900F9C1D5 /* InterstitialAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdViewController.m; sourceTree = "<group>"; };
+		BCF589AE2C36425900F9C1D5 /* RewardVideoAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardVideoAdViewController.h; sourceTree = "<group>"; };
+		BCF589AF2C36425900F9C1D5 /* RewardVideoAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardVideoAdViewController.m; sourceTree = "<group>"; };
+		BCF589B02C36425900F9C1D5 /* SplashAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAdViewController.h; sourceTree = "<group>"; };
+		BCF589B12C36425900F9C1D5 /* SplashAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAdViewController.m; sourceTree = "<group>"; };
+		BCF589B32C36425900F9C1D5 /* BannerAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdapterViewController.h; sourceTree = "<group>"; };
+		BCF589B42C36425900F9C1D5 /* BannerAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdapterViewController.m; sourceTree = "<group>"; };
+		BCF589B52C36425900F9C1D5 /* FeedAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedAdapterViewController.h; sourceTree = "<group>"; };
+		BCF589B62C36425900F9C1D5 /* FeedAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedAdapterViewController.m; sourceTree = "<group>"; };
+		BCF589B72C36425900F9C1D5 /* InterstitialAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialAdapterViewController.h; sourceTree = "<group>"; };
+		BCF589B82C36425900F9C1D5 /* InterstitialAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdapterViewController.m; sourceTree = "<group>"; };
+		BCF589B92C36425900F9C1D5 /* RewardVideoAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardVideoAdapterViewController.h; sourceTree = "<group>"; };
+		BCF589BA2C36425900F9C1D5 /* RewardVideoAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardVideoAdapterViewController.m; sourceTree = "<group>"; };
+		BCF589BB2C36425900F9C1D5 /* SplashAdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashAdapterViewController.h; sourceTree = "<group>"; };
+		BCF589BC2C36425900F9C1D5 /* SplashAdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashAdapterViewController.m; sourceTree = "<group>"; };
+		BCF589C82C36427D00F9C1D5 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		BCF589C92C36427E00F9C1D5 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		E6D2F0F62F5252330AA812B5 /* Pods-DMengAdSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMengAdSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5F1BCE0E5FABF2EF0B1C4DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +106,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ACC76A0FD6AF6AC3E9190977 /* Pods_DMengAdSDK_Example.framework in Frameworks */,
+				E8E42DF557067C9301CFF3BF /* Pods_DMengAdSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +117,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0F8108D37D9FEC9F01704DC9 /* Pods_DMengAdSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +151,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B402F6A1C62733AB3F403D80 /* Pods_DMengAdSDK_Example.framework */,
-				E4D64DA7EF26DC6E317735F5 /* Pods_DMengAdSDK_Tests.framework */,
+				154ADF6589EAE54D4C84BEDC /* Pods_DMengAdSDK_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +164,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DMViewController.h */,
 				6003F5A6195388D20070C39A /* DMViewController.m */,
+				BCF589C82C36427D00F9C1D5 /* UIView+Toast.h */,
+				BCF589C92C36427E00F9C1D5 /* UIView+Toast.m */,
+				BCF589B22C36425900F9C1D5 /* DMAdSDKDemo */,
+				BCF589BD2C36425900F9C1D5 /* UnionAdDemo */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -188,12 +219,44 @@
 		B6723D77F52E76185D5EA66F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7FAF4C1CFE563641EE57AF20 /* Pods-DMengAdSDK_Example.debug.xcconfig */,
-				38B00A1B97CB87BB65393721 /* Pods-DMengAdSDK_Example.release.xcconfig */,
-				31FA40241FA714B2C196DA0D /* Pods-DMengAdSDK_Tests.debug.xcconfig */,
-				D20C6B612D9A1E14A4E2319A /* Pods-DMengAdSDK_Tests.release.xcconfig */,
+				E6D2F0F62F5252330AA812B5 /* Pods-DMengAdSDK_Example.debug.xcconfig */,
+				B58152034B99646AFF28D85F /* Pods-DMengAdSDK_Example.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCF589B22C36425900F9C1D5 /* DMAdSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCF589A82C36425900F9C1D5 /* BannerAdViewController.h */,
+				BCF589A92C36425900F9C1D5 /* BannerAdViewController.m */,
+				BCF589AA2C36425900F9C1D5 /* FeedAdViewController.h */,
+				BCF589AB2C36425900F9C1D5 /* FeedAdViewController.m */,
+				BCF589AC2C36425900F9C1D5 /* InterstitialAdViewController.h */,
+				BCF589AD2C36425900F9C1D5 /* InterstitialAdViewController.m */,
+				BCF589AE2C36425900F9C1D5 /* RewardVideoAdViewController.h */,
+				BCF589AF2C36425900F9C1D5 /* RewardVideoAdViewController.m */,
+				BCF589B02C36425900F9C1D5 /* SplashAdViewController.h */,
+				BCF589B12C36425900F9C1D5 /* SplashAdViewController.m */,
+			);
+			path = DMAdSDKDemo;
+			sourceTree = "<group>";
+		};
+		BCF589BD2C36425900F9C1D5 /* UnionAdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCF589B32C36425900F9C1D5 /* BannerAdapterViewController.h */,
+				BCF589B42C36425900F9C1D5 /* BannerAdapterViewController.m */,
+				BCF589B52C36425900F9C1D5 /* FeedAdapterViewController.h */,
+				BCF589B62C36425900F9C1D5 /* FeedAdapterViewController.m */,
+				BCF589B72C36425900F9C1D5 /* InterstitialAdapterViewController.h */,
+				BCF589B82C36425900F9C1D5 /* InterstitialAdapterViewController.m */,
+				BCF589B92C36425900F9C1D5 /* RewardVideoAdapterViewController.h */,
+				BCF589BA2C36425900F9C1D5 /* RewardVideoAdapterViewController.m */,
+				BCF589BB2C36425900F9C1D5 /* SplashAdapterViewController.h */,
+				BCF589BC2C36425900F9C1D5 /* SplashAdapterViewController.m */,
+			);
+			path = UnionAdDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DMengAdSDK_Example" */;
 			buildPhases = (
-				4894C40C7BCEC5BD213B20FB /* [CP] Check Pods Manifest.lock */,
+				57206C69338B5D5F276D455B /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A7152BC3986E7B53CD47E429 /* [CP] Embed Pods Frameworks */,
-				BCB8924D54D2391827754161 /* [CP] Copy Pods Resources */,
+				642E9BD07FA3334BF6BED411 /* [CP] Embed Pods Frameworks */,
+				E0E808F7BD51560198740CAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,11 +286,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DMengAdSDK_Tests" */;
 			buildPhases = (
-				16BB2E202B2E45E11BACB2CC /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				C0EAFCBAC9039A7FC9D08C30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,29 +362,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16BB2E202B2E45E11BACB2CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DMengAdSDK_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4894C40C7BCEC5BD213B20FB /* [CP] Check Pods Manifest.lock */ = {
+		57206C69338B5D5F276D455B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +384,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7152BC3986E7B53CD47E429 /* [CP] Embed Pods Frameworks */ = {
+		642E9BD07FA3334BF6BED411 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,7 +410,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCB8924D54D2391827754161 /* [CP] Copy Pods Resources */ = {
+		E0E808F7BD51560198740CAB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,24 +430,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMengAdSDK_Example/Pods-DMengAdSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0EAFCBAC9039A7FC9D08C30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DMengAdSDK_Tests/Pods-DMengAdSDK_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMengAdSDK_Tests/Pods-DMengAdSDK_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -417,8 +438,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DMAppDelegate.m in Sources */,
+				BCF589C62C36425900F9C1D5 /* RewardVideoAdapterViewController.m in Sources */,
+				BCF589BE2C36425900F9C1D5 /* BannerAdViewController.m in Sources */,
+				BCF589C42C36425900F9C1D5 /* FeedAdapterViewController.m in Sources */,
+				BCF589CA2C36427E00F9C1D5 /* UIView+Toast.m in Sources */,
+				BCF589C52C36425900F9C1D5 /* InterstitialAdapterViewController.m in Sources */,
+				BCF589C22C36425900F9C1D5 /* SplashAdViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* DMViewController.m in Sources */,
+				BCF589C72C36425900F9C1D5 /* SplashAdapterViewController.m in Sources */,
+				BCF589C32C36425900F9C1D5 /* BannerAdapterViewController.m in Sources */,
+				BCF589BF2C36425900F9C1D5 /* FeedAdViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BCF589C02C36425900F9C1D5 /* InterstitialAdViewController.m in Sources */,
+				BCF589C12C36425900F9C1D5 /* RewardVideoAdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,7 +575,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FAF4C1CFE563641EE57AF20 /* Pods-DMengAdSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = E6D2F0F62F5252330AA812B5 /* Pods-DMengAdSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 432Y475BJD;
@@ -552,7 +584,7 @@
 				INFOPLIST_FILE = "DMengAdSDK/DMengAdSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.DMAdSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -561,7 +593,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38B00A1B97CB87BB65393721 /* Pods-DMengAdSDK_Example.release.xcconfig */;
+			baseConfigurationReference = B58152034B99646AFF28D85F /* Pods-DMengAdSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 432Y475BJD;
@@ -570,7 +602,7 @@
 				INFOPLIST_FILE = "DMengAdSDK/DMengAdSDK-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.DMAdSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -579,7 +611,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31FA40241FA714B2C196DA0D /* Pods-DMengAdSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 432Y475BJD;
@@ -605,7 +636,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D20C6B612D9A1E14A4E2319A /* Pods-DMengAdSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 432Y475BJD;
