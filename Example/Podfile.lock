@@ -19,29 +19,29 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - DMengAdSDK (3.4.3):
-    - DMengAdSDK/DMAdSDK (= 3.4.3)
-  - DMengAdSDK/DMAdSDK (3.4.3):
+  - DMengAdSDK (3.4.5):
+    - DMengAdSDK/DMAdSDK (= 3.4.5)
+  - DMengAdSDK/DMAdSDK (3.4.5):
     - AFNetworking
     - Masonry
     - Protobuf (~> 3.27)
     - SDWebImage
-  - DMengAdSDK/DMAdSDKAdapter (3.4.3):
+  - DMengAdSDK/DMAdSDKAdapter (3.4.5):
     - DMengAdSDK/DMAdSDK
     - DMengAdSDK/DMengSDKAdapter
-  - DMengAdSDK/DMengAdSDK (3.4.3):
+  - DMengAdSDK/DMengAdSDK (3.4.5):
     - DMengAdSDK/DMAdSDK
     - DMengAdSDK/DMAdSDKAdapter
     - DMengAdSDK/DMengSDKAdapter
-  - DMengAdSDK/DMengSDKAdapter (3.4.3):
+  - DMengAdSDK/DMengSDKAdapter (3.4.5):
     - DMengAdSDK/DMAdSDK
-  - DMengAdSDK/GMAdSDKAdapter (3.4.3):
+  - DMengAdSDK/GMAdSDKAdapter (3.4.5):
     - Ads-CN-Beta (= 6.2.0.0)
     - Ads-CN-Beta/CSJMediation
     - DMengAdSDK/DMengSDKAdapter
     - GMKsAdapter-Beta (~> 3.3.64.0.0)
     - KSAdSDK (~> 3.3.61)
-  - DMengAdSDK/KSAdSDKAdapter (3.4.3):
+  - DMengAdSDK/KSAdSDKAdapter (3.4.5):
     - DMengAdSDK/DMengSDKAdapter
     - KSAdSDK (~> 3.3.61)
   - GMKsAdapter-Beta (3.3.64.0.0):
@@ -78,7 +78,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Ads-CN-Beta: 7a82a9a84e5af6b37d78ea1364648f652df26020
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  DMengAdSDK: fa43d7946e72a007abc08c855907b13eca1589fb
+  DMengAdSDK: 50ecc3ad8054986a611264ff11939306719067db
   GMKsAdapter-Beta: 39a985c9e198fc449e47ae0f0cdea085973fdf3a
   KSAdSDK: 2b7d0715bb848a9f5b5cb46a5ae25555e109aca0
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
